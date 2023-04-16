@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center|center_horizontal"
+        android:text="Menu de opciones"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btnListaPersonas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:backgroundTintMode="screen"
+        android:text="Lista Personas" />
+    <Button
+        android:id="@+id/btnIngresarPersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:backgroundTintMode="screen"
+        android:text="Agregar Personas" />
+
+</LinearLayout>
